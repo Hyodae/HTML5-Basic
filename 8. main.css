@@ -1,0 +1,16 @@
+/* only affect in parents, not grandparents */
+div > p {
+    color: green;
+}
+
+/* the next to the bucky class will change the color */
+p.bucky + p {
+    color: red;
+}
+
+/* as long as p follows p, no matter what the differene is,
+   it will change the color
+ */
+p.bucky ~ p {
+    color: blue;
+}

@@ -1,0 +1,27 @@
+p.tuna {
+    color:blue;
+}
+#tuna {
+    color:red;
+}
+
+/* attribute selector */
+p[name] {
+    color: orange;
+}
+
+p[name="Hyodae"] {
+    color: chartreuse;
+}
+
+p[name^="bacon"] {
+    color: yellowgreen;
+}
+
+p[name$="bacon"] {
+    color: #ffbdf4;
+}
+
+p[name*="bacon"] {
+    color: #63eaff;
+}
